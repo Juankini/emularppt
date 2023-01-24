@@ -1,48 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/white.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/white.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<h1>VIDA Saludable</h1>
-				</section>
-				<section>
-					<h3>Haz ejercicio diariamente</h3>
-					<span class="spinner">x3o</span>
-					<img src="assets/img/atleta.png" alt="" width="250px">
-				</section>
-				<section>Slide 3</section>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-transition-speed="fast">
+          <h1>VIDA Saludable</h1>
+        </section>
+        <section data-background-color="aquamarine" data-transition-speed="slide-in fade-out">
+          <h3>Haz ejercicio diariamente</h3>
+          <span class="spinner"></span>
+          <img src="assets/img/atleta.png" alt="" width="70px" />
+          <p>x30</p>
+        </section>
+        <section data-background-color="rgb(231, 76, 60)">
+          <h3>Come alimentos sanos</h3>
+          <img src="assets/img/plato.png" alt="" width="450px" />
+          <p>a diario</p>
+        </section>
+        <section data-background-color="rgb(211, 84, 0)">
+          <section>
+            <h3>Bebe suficiente agua</h3>
+            <img src="assets/img/vaso_agua.png" alt="" width="50px" />
+            <img src="assets/img/vaso_agua.png" alt="" width="50px" />
+            <img src="assets/img/vaso_agua.png" alt="" width="50px" />
+            <img src="assets/img/vaso_agua.png" alt="" width="50px" />
+			<br>
+            <img src="assets/img/vaso_agua.png" alt="" width="50px" />
+            <img src="assets/img/vaso_agua.png" alt="" width="50px" />
+            <img src="assets/img/vaso_agua.png" alt="" width="50px" />
+            <img src="assets/img/vaso_agua.png" alt="" width="50px" />
 
-			</div>
-		</div>
+            <p>X 8</p>
+          </section>
+          <section data-background-image="assets/img/nubecartoon.png" data-background-color="rgb(26, 188, 156)">
+            <h5 class="fragment highlight-red">Descansa bien por las noches</h5>
+            <img src="assets/img/oveja.png" alt="" width="50px" />
+            <img src="assets/img/oveja.png" alt="" width="50px" /><br>
+			<img src="assets/img/oveja.png" alt="" width="50px" />
+            <img src="assets/img/oveja.png" alt="" width="50px" /><br>
+			<img src="assets/img/oveja.png" alt="" width="50px" />
+            <img src="assets/img/oveja.png" alt="" width="50px" />
+            <img src="assets/img/oveja.png" alt="" width="50px" />	
+            <p class="fragment highlight-red"> X 7</p>
+          </section>
+		  
+        </section>
+		<section data-background-color="rgb(218, 247, 166)">
+			<h3>Manten un diario </h3>
+			<img src="assets/img/diario.png" alt="" width="350px" />			
+		  </section>
+		  <section data-background-color="rgb(212, 230, 241)">
+			<h3>Date un respiro </h3>
+			<img src="assets/img/meditar.png" alt="" width="350px" />			
+		  </section>
+		  <section data-background-color="rgb(163, 228, 215)">
+			<h3>Ten confiaza en ti mismo </h3>
+			<img src="assets/img/cronometro.png" alt="" width="350px" />			
+		  </section>
+		  <section data-background-color="rgb(244, 208, 63)">
+			<h3>Ponte Objetivos </h3>
+			<img src="assets/img/diana.png" alt="" width="350px" />			
+		  </section>
+      </div>
+    </div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
